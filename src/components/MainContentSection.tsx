@@ -255,8 +255,8 @@ const NexcentBlogSection = () => {
       <div className="w-[630px]">
         <p className="mt-2 mb-4 text-center text-neutral_gray font-normal">
           The Nexcent blog is the best place to read about the latest membership
-          insights, trends and more. See who's joining the community, read about
-          how our community are increasing their membership income and lot's
+          insights, trends and more. See who&apos;s joining the community, read about
+          how our community are increasing their membership income and lot&apos;s
           more.
         </p>
       </div>
@@ -296,7 +296,7 @@ const NexcentBlogSection = () => {
               alt="Blog Image"
               className="w-full h-auto z-0"
             />
-            <div className="w-[300px] h-[176px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-silver shadow-md absolute rounded-lg px-4 py-5">
+            <div className="w-[300px] h-[176px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-silver shadow-md absolute rounded-lg px-4 py-5 ">
               <p className="text-center text-neutral_gray font-semibold text-xl">
                 Revamping the Membership Model with Triathlon <br/> Australia
               </p>
@@ -311,7 +311,7 @@ const NexcentBlogSection = () => {
 
 const DemoSection = () => {
   return (
-    <div className="mt-40 py-10 text-center bg-silver ">
+    <div className="mt-48 py-10 text-center bg-silver ">
       <h1 className="text-6xl font-semibold text-[#263238] leading-[76px]">
         Pellentesque suscipit
         <br />
