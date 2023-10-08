@@ -21,6 +21,7 @@ import rightArrow from "../assets/right_arrow.png";
 import blogImage1 from "../assets/blog_image_1.png";
 import blogImage2 from "../assets/blog_image_2.png";
 import blogImage3 from "../assets/blog_image_3.png";
+import Image from "next/image";
 
 const ClientSection = () => {
   return (
@@ -32,13 +33,55 @@ const ClientSection = () => {
         We have been working with some Fortune 500+ clients
       </p>
       <div className="flex justify-between px-60 mt-10">
-        <img className="cursor-pointer" src={clientLogo1.src} alt="Logo" />
-        <img className="cursor-pointer" src={clientLogo2.src} alt="Logo" />
-        <img className="cursor-pointer" src={clientLogo3.src} alt="Logo" />
-        <img className="cursor-pointer" src={clientLogo4.src} alt="Logo" />
-        <img className="cursor-pointer" src={clientLogo5.src} alt="Logo" />
-        <img className="cursor-pointer" src={clientLogo6.src} alt="Logo" />
-        <img className="cursor-pointer" src={clientLogo7.src} alt="Logo" />
+        <Image
+          width={48}
+          height={48}
+          className="cursor-pointer"
+          src={clientLogo1.src}
+          alt="Logo"
+        />
+        <Image
+          width={48}
+          height={48}
+          className="cursor-pointer"
+          src={clientLogo2.src}
+          alt="Logo"
+        />
+        <Image
+          width={48}
+          height={48}
+          className="cursor-pointer"
+          src={clientLogo3.src}
+          alt="Logo"
+        />
+        <Image
+          width={48}
+          height={48}
+          className="cursor-pointer"
+          src={clientLogo4.src}
+          alt="Logo"
+        />
+        <Image
+          width={48}
+          height={48}
+          className="cursor-pointer"
+          src={clientLogo5.src}
+          alt="Logo"
+        />
+        <Image
+          width={48}
+          height={48}
+          className="cursor-pointer"
+          src={clientLogo6.src}
+          alt="Logo"
+        />
+        <Image
+          width={48}
+          height={48}
+          className="cursor-pointer"
+          src={clientLogo7.src}
+          alt="Logo"
+        />
       </div>
     </div>
   );
@@ -55,7 +98,12 @@ const CommunitySection = () => {
       </p>
       <div className="flex mt-10 justify-evenly">
         <div className="flex flex-col items-center">
-          <img src={membershipOrgLogo.src} alt="Membership Organizations" />
+          <Image
+            width={65}
+            height={56}
+            src={membershipOrgLogo.src}
+            alt="Membership Organizations"
+          />
           <h1 className="w-[257px] text-3xl mt-2 text-center text-neutral_dark_gray font-semibold">
             Membership Organizations
           </h1>
@@ -65,7 +113,12 @@ const CommunitySection = () => {
           </p>
         </div>
         <div className="flex flex-col items-center">
-          <img src={nationalAssociationLogo.src} alt="National Associations" />
+          <Image
+            width={65}
+            height={56}
+            src={nationalAssociationLogo.src}
+            alt="National Associations"
+          />
           <h1 className="w-[257px] text-3xl mt-2  text-center text-neutral_dark_gray font-semibold">
             National Associations
           </h1>
@@ -76,7 +129,12 @@ const CommunitySection = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <img src={clubsAndGroupsLogo.src} alt="Clubs and Groups" />
+          <Image
+            width={65}
+            height={56}
+            src={clubsAndGroupsLogo.src}
+            alt="Clubs and Groups"
+          />
           <h1 className="w-[257px] text-3xl mt-2 text-center text-neutral_dark_gray font-semibold">
             Clubs And Groups
           </h1>
@@ -93,7 +151,12 @@ const CommunitySection = () => {
 const PixelgradeSection = () => {
   return (
     <div className="px-72 flex mt-32 justify-evenly place-items-center">
-      <img src={illustration2.src} alt="Pixelgrade" />
+      <Image
+        width={442}
+        height={433}
+        src={illustration2.src}
+        alt="Pixelgrade"
+      />
       <div className="item-center">
         <h1 className="w-[600px] text-4xl mb-5 text-neutral_dark_gray font-semibold">
           The unseen of spending three years at Pixelgrade
@@ -128,7 +191,7 @@ const ReinventSection = () => {
       <div className="flex flex-col gap-6">
         <div className="flex space-evenly gap-20">
           <div className="flex items-center gap-4">
-            <img src={membersIcon.src} alt="Clubs" />
+            <Image width={48} height={48} src={membersIcon.src} alt="Clubs" />
             <div className="flex flex-col">
               <h1 className="text-neutral_dark_gray text-xl font-bold">
                 2,245,341
@@ -137,7 +200,7 @@ const ReinventSection = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <img src={clubsIcon.src} alt="Clubs" />
+            <Image width={48} height={48} src={clubsIcon.src} alt="Clubs" />
             <div className="flex flex-col pl-2">
               <h1 className="text-neutral_dark_gray text-xl font-bold">
                 46,328
@@ -149,7 +212,12 @@ const ReinventSection = () => {
 
         <div className="flex space-between gap-16">
           <div className="flex items-center gap-4">
-            <img src={eventBookingsIcon.src} alt="Event Bookings" />
+            <Image
+              width={48}
+              height={48}
+              src={eventBookingsIcon.src}
+              alt="Event Bookings"
+            />
             <div className="flex flex-col pl-4">
               <h1 className="text-neutral_dark_gray text-xl font-bold">
                 828,867
@@ -158,7 +226,12 @@ const ReinventSection = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <img src={paymentsIcon.src} alt="Payments" />
+            <Image
+              width={48}
+              height={48}
+              src={paymentsIcon.src}
+              alt="Payments"
+            />
             <div className="flex flex-col">
               <h1 className="text-neutral_dark_gray text-xl font-bold">
                 1,926,436
@@ -175,7 +248,12 @@ const ReinventSection = () => {
 const DesignSiteFooterSection = () => {
   return (
     <div className="flex justify-center items-center mt-10">
-      <img src={designYourSiteFooterIcon.src} alt="Illustration" />
+      <Image
+        width={441}
+        height={433}
+        src={designYourSiteFooterIcon.src}
+        alt="Illustration"
+      />
       <div>
         <h1 className="w-[600px] text-4xl mb-5 text-neutral_dark_gray font-semibold">
           How to design your site footer like we did
@@ -199,7 +277,12 @@ const DesignSiteFooterSection = () => {
 const MeetAllCustomersSection = () => {
   return (
     <div className="flex mt-16 pt-10 justify-center gap-10 bg-silver">
-      <img src={customerLogo1.src} alt="Customer Logo" />
+      <Image
+        width={326}
+        height={326}
+        src={customerLogo1.src}
+        alt="Customer Logo"
+      />
       <div className="">
         <p className="w-[748px] mb-10 pt-1 text-neutral_gray">
           Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
@@ -216,12 +299,48 @@ const MeetAllCustomersSection = () => {
         <h1 className="text-green font-semibold">Tim Smith</h1>
         <p className="text-[#89939E]">British Dragon Boat Racing Association</p>
         <div className="flex items-center justify-between">
-          <img className="cursor-pointer" src={clientLogo1.src} alt="" />
-          <img className="cursor-pointer" src={clientLogo2.src} alt="" />
-          <img className="cursor-pointer" src={clientLogo3.src} alt="" />
-          <img className="cursor-pointer" src={clientLogo4.src} alt="" />
-          <img className="cursor-pointer" src={clientLogo5.src} alt="" />
-          <img className="cursor-pointer" src={clientLogo6.src} alt="" />
+          <Image
+            width={48}
+            height={48}
+            className="cursor-pointer"
+            src={clientLogo1.src}
+            alt=""
+          />
+          <Image
+            width={48}
+            height={48}
+            className="cursor-pointer"
+            src={clientLogo2.src}
+            alt=""
+          />
+          <Image
+            width={48}
+            height={48}
+            className="cursor-pointer"
+            src={clientLogo3.src}
+            alt=""
+          />
+          <Image
+            width={48}
+            height={48}
+            className="cursor-pointer"
+            src={clientLogo4.src}
+            alt=""
+          />
+          <Image
+            width={48}
+            height={48}
+            className="cursor-pointer"
+            src={clientLogo5.src}
+            alt=""
+          />
+          <Image
+            width={48}
+            height={48}
+            className="cursor-pointer"
+            src={clientLogo6.src}
+            alt=""
+          />
           <ArrowButton title="Meet all customers"></ArrowButton>
           {/* <div className="flex items-center curso">
             <h1 className="text-green font-semibold pt-8 pl-8 pb-9 pr-4">
@@ -241,7 +360,7 @@ const ArrowButton: React.FC<{ title: string }> = (props) => {
       <h1 className="text-green text-center font-semibold pt-8 pl-8 pb-9 pr-4">
         {props.title}
       </h1>
-      <img src={rightArrow.src} alt="Right Arrow" />
+      <Image width={24} height={24} src={rightArrow.src} alt="Right Arrow" />
     </div>
   );
 };
@@ -255,16 +374,18 @@ const NexcentBlogSection = () => {
       <div className="w-[630px]">
         <p className="mt-2 mb-4 text-center text-neutral_gray font-normal">
           The Nexcent blog is the best place to read about the latest membership
-          insights, trends and more. See who&apos;s joining the community, read about
-          how our community are increasing their membership income and lot&apos;s
-          more.
+          insights, trends and more. See who&apos;s joining the community, read
+          about how our community are increasing their membership income and
+          lot&apos;s more.
         </p>
       </div>
 
       <div className="flex flex-col">
         <div className="flex gap-5">
           <div className="container relative">
-            <img
+            <Image
+              width={368}
+              height={286}
               src={blogImage1.src}
               alt="Blog Image"
               className="w-full h-auto z-0"
@@ -277,7 +398,9 @@ const NexcentBlogSection = () => {
             </div>
           </div>
           <div className="container relative">
-            <img
+            <Image
+              width={368}
+              height={286}
               src={blogImage2.src}
               alt="Blog Image"
               className="w-full h-auto z-0"
@@ -291,14 +414,16 @@ const NexcentBlogSection = () => {
             </div>
           </div>
           <div className="container relative">
-            <img
+            <Image
+              width={368}
+              height={286}
               src={blogImage3.src}
               alt="Blog Image"
               className="w-full h-auto z-0"
             />
             <div className="w-[300px] h-[176px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-silver shadow-md absolute rounded-lg px-4 py-5 ">
               <p className="text-center text-neutral_gray font-semibold text-xl">
-                Revamping the Membership Model with Triathlon <br/> Australia
+                Revamping the Membership Model with Triathlon <br /> Australia
               </p>
               <ArrowButton title="Readmore" />
             </div>

@@ -1,13 +1,14 @@
 import React from "react";
 import nexcent_logo from "../assets/nexcent_logo.png";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Navbar = () => {
   const router = useRouter();
   return (
     <nav className="flex px-40 py-5 justify-between bg-[#F5F7FA]">
       <div className="">
-        <img src={nexcent_logo.src} alt="Company Logo" />
+        <Image width={155} height={24} src={nexcent_logo.src} alt="Company Logo" />
       </div>
 
       <ul className="flex gap-10">

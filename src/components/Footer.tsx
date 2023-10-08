@@ -1,22 +1,30 @@
 import React from "react";
 import nexcentLogo from "../assets/nexcent_dark.png";
-import dribbleIcon from "../assets/social_icon_1.png"
-import twitterIcon from "../assets/social_icon_2.png"
-import youtubeIcon from "../assets/social_icon_3.png"
-import instagramIcon from "../assets/social_icon_4.png"
+import dribbleIcon from "../assets/social_icon_1.png";
+import twitterIcon from "../assets/social_icon_2.png";
+import youtubeIcon from "../assets/social_icon_3.png";
+import instagramIcon from "../assets/social_icon_4.png";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="bg-dark_gray flex justify-between  px-64 py-16">
       <div>
-        <img src={nexcentLogo.src} alt="Nexcent Logo" />
-        <p className="text-sm text-silver mt-8">Copyright © 2020 Newcent ltd.</p>
+        <Image
+          width={191}
+          height={30}
+          src={nexcentLogo.src}
+          alt="Nexcent Logo"
+        />
+        <p className="text-sm text-silver mt-8">
+          Copyright © 2020 Newcent ltd.
+        </p>
         <p className="text-sm text-silver mt-2">All rights reserved</p>
         <div className="flex gap-4 mt-8">
-          <img src={instagramIcon.src} alt="" />
-          <img src={dribbleIcon.src} alt="" />
-          <img src={twitterIcon.src} alt="" />
-          <img src={youtubeIcon.src} alt="" />
+          <Image width={32} height={32} src={instagramIcon.src} alt="" />
+          <Image width={32} height={32} src={dribbleIcon.src} alt="" />
+          <Image width={32} height={32} src={twitterIcon.src} alt="" />
+          <Image width={32} height={32} src={youtubeIcon.src} alt="" />
         </div>
       </div>
       <div className="flex gap-16">
