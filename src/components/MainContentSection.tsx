@@ -1,27 +1,27 @@
 import React from "react";
-import clientLogo1 from "../assets/client_logo_1.png";
-import clientLogo2 from "../assets/client_logo_2.png";
-import clientLogo3 from "../assets/client_logo_3.png";
-import clientLogo4 from "../assets/client_logo_4.png";
-import clientLogo5 from "../assets/client_logo_5.png";
-import clientLogo6 from "../assets/client_logo_6.png";
-import clientLogo7 from "../assets/client_logo_7.png";
-import membershipOrgLogo from "../assets/community_icon1.png";
-import nationalAssociationLogo from "../assets/community_icon2.png";
-import clubsAndGroupsLogo from "../assets/community_icon3.png";
-import BrandedButton from "./BrandedButton";
-import illustration2 from "../assets/illustration_2.png";
-import membersIcon from "../assets/members_icon.png";
-import clubsIcon from "../assets/clubs_icon.png";
-import eventBookingsIcon from "../assets/event_bookings_icon.png";
-import paymentsIcon from "../assets/payments_icon.png";
-import designYourSiteFooterIcon from "../assets/pana.png";
-import customerLogo1 from "../assets/customer_logo_1.png";
-import rightArrow from "../assets/right_arrow.png";
-import blogImage1 from "../assets/blog_image_1.png";
-import blogImage2 from "../assets/blog_image_2.png";
-import blogImage3 from "../assets/blog_image_3.png";
+// import clientLogo1 from "client_logo_1.png";
+// import clientLogo2 from "client_logo_2.png";
+// import clientLogo3 from "client_logo_3.png";
+// import clientLogo4 from "client_logo_4.png";
+// import clientLogo5 from "client_logo_5.png";
+// import clientLogo6 from "client_logo_6.png";
+// import clientLogo7 from "client_logo_7.png";
+// import membershipOrgLogo from "../assets/community_icon1.png";
+// import nationalAssociationLogo from "../assets/community_icon2.png";
+// import clubsAndGroupsLogo from "../assets/community_icon3.png";
+// import illustration2 from "../assets/illustration_2.png";
+// import membersIcon from "../assets/members_icon.png";
+// import clubsIcon from "../assets/clubs_icon.png";
+// import eventBookingsIcon from "../assets/event_bookings_icon.png";
+// import paymentsIcon from "../assets/payments_icon.png";
+// import designYourSiteFooterIcon from "../assets/pana.png";
+// import customerLogo1 from "../assets/customer_logo_1.png";
+// import rightArrow from "../assets/right_arrow.png";
+// import blogImage1 from "../assets/blog_image_1.png";
+// import blogImage2 from "../assets/blog_image_2.png";
+// import blogImage3 from "../assets/blog_image_3.png";
 import Image from "next/image";
+import BrandedButton from "./BrandedButton";
 
 const ClientSection = () => {
   return (
@@ -37,49 +37,49 @@ const ClientSection = () => {
           width={48}
           height={48}
           className="cursor-pointer"
-          src={clientLogo1.src}
+          src="/client_logo_1.png"
           alt="Logo"
         />
         <Image
           width={48}
           height={48}
           className="cursor-pointer"
-          src={clientLogo2.src}
+          src="/client_logo_2.png"
           alt="Logo"
         />
         <Image
           width={48}
           height={48}
           className="cursor-pointer"
-          src={clientLogo3.src}
+          src="/client_logo_3.png"
           alt="Logo"
         />
         <Image
           width={48}
           height={48}
           className="cursor-pointer"
-          src={clientLogo4.src}
+          src="/client_logo_4.png"
           alt="Logo"
         />
         <Image
           width={48}
           height={48}
           className="cursor-pointer"
-          src={clientLogo5.src}
+          src="/client_logo_5.png"
           alt="Logo"
         />
         <Image
           width={48}
           height={48}
           className="cursor-pointer"
-          src={clientLogo6.src}
+          src="/client_logo_6.png"
           alt="Logo"
         />
         <Image
           width={48}
           height={48}
           className="cursor-pointer"
-          src={clientLogo7.src}
+          src="/client_logo_7.png"
           alt="Logo"
         />
       </div>
@@ -101,7 +101,7 @@ const CommunitySection = () => {
           <Image
             width={65}
             height={56}
-            src={membershipOrgLogo.src}
+            src="/community_icon1.png"
             alt="Membership Organizations"
           />
           <h1 className="w-[257px] text-3xl mt-2 text-center text-neutral_dark_gray font-semibold">
@@ -116,7 +116,7 @@ const CommunitySection = () => {
           <Image
             width={65}
             height={56}
-            src={nationalAssociationLogo.src}
+            src="/community_icon2.png"
             alt="National Associations"
           />
           <h1 className="w-[257px] text-3xl mt-2  text-center text-neutral_dark_gray font-semibold">
@@ -132,7 +132,7 @@ const CommunitySection = () => {
           <Image
             width={65}
             height={56}
-            src={clubsAndGroupsLogo.src}
+            src="/community_icon3.png"
             alt="Clubs and Groups"
           />
           <h1 className="w-[257px] text-3xl mt-2 text-center text-neutral_dark_gray font-semibold">
@@ -154,7 +154,7 @@ const PixelgradeSection = () => {
       <Image
         width={442}
         height={433}
-        src={illustration2.src}
+        src="/illustration_2.png"
         alt="Pixelgrade"
       />
       <div className="item-center">
@@ -191,7 +191,7 @@ const ReinventSection = () => {
       <div className="flex flex-col gap-6">
         <div className="flex space-evenly gap-20">
           <div className="flex items-center gap-4">
-            <Image width={48} height={48} src={membersIcon.src} alt="Clubs" />
+            <Image width={48} height={48} src="/members_icon.png" alt="Clubs" />
             <div className="flex flex-col">
               <h1 className="text-neutral_dark_gray text-xl font-bold">
                 2,245,341
@@ -200,7 +200,7 @@ const ReinventSection = () => {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <Image width={48} height={48} src={clubsIcon.src} alt="Clubs" />
+            <Image width={48} height={48} src="/clubs_icon.png" alt="Clubs" />
             <div className="flex flex-col pl-2">
               <h1 className="text-neutral_dark_gray text-xl font-bold">
                 46,328
@@ -215,7 +215,7 @@ const ReinventSection = () => {
             <Image
               width={48}
               height={48}
-              src={eventBookingsIcon.src}
+              src="/event_bookings_icon.png"
               alt="Event Bookings"
             />
             <div className="flex flex-col pl-4">
@@ -229,7 +229,7 @@ const ReinventSection = () => {
             <Image
               width={48}
               height={48}
-              src={paymentsIcon.src}
+              src="/payments_icon.png"
               alt="Payments"
             />
             <div className="flex flex-col">
@@ -251,7 +251,7 @@ const DesignSiteFooterSection = () => {
       <Image
         width={441}
         height={433}
-        src={designYourSiteFooterIcon.src}
+        src="/pana.png"
         alt="Illustration"
       />
       <div>
@@ -280,7 +280,7 @@ const MeetAllCustomersSection = () => {
       <Image
         width={326}
         height={326}
-        src={customerLogo1.src}
+        src="/customer_logo_1.png"
         alt="Customer Logo"
       />
       <div className="">
@@ -303,51 +303,45 @@ const MeetAllCustomersSection = () => {
             width={48}
             height={48}
             className="cursor-pointer"
-            src={clientLogo1.src}
+            src="/client_logo_1.png"
             alt=""
           />
           <Image
             width={48}
             height={48}
             className="cursor-pointer"
-            src={clientLogo2.src}
+            src="/client_logo_2.png"
             alt=""
           />
           <Image
             width={48}
             height={48}
             className="cursor-pointer"
-            src={clientLogo3.src}
+            src="/client_logo_3.png"
             alt=""
           />
           <Image
             width={48}
             height={48}
             className="cursor-pointer"
-            src={clientLogo4.src}
+            src="/client_logo_4.png"
             alt=""
           />
           <Image
             width={48}
             height={48}
             className="cursor-pointer"
-            src={clientLogo5.src}
+            src="/client_logo_5.png"
             alt=""
           />
           <Image
             width={48}
             height={48}
             className="cursor-pointer"
-            src={clientLogo6.src}
+            src="/client_logo_6.png"
             alt=""
           />
           <ArrowButton title="Meet all customers"></ArrowButton>
-          {/* <div className="flex items-center curso">
-            <h1 className="text-green font-semibold pt-8 pl-8 pb-9 pr-4">
-              Meet all customers
-            </h1>
-            <img src={rightArrow.src} alt="Right Arrow" />
-          </div> */}
         </div>
       </div>
     </div>
@@ -360,7 +354,7 @@ const ArrowButton: React.FC<{ title: string }> = (props) => {
       <h1 className="text-green text-center font-semibold pt-8 pl-8 pb-9 pr-4">
         {props.title}
       </h1>
-      <Image width={24} height={24} src={rightArrow.src} alt="Right Arrow" />
+      <Image width={24} height={24} src="/right_arrow.png" alt="Right Arrow" />
     </div>
   );
 };
@@ -386,7 +380,7 @@ const NexcentBlogSection = () => {
             <Image
               width={368}
               height={286}
-              src={blogImage1.src}
+              src="/blog_image_1.png"
               alt="Blog Image"
               className="w-full h-auto z-0"
             />
@@ -401,7 +395,7 @@ const NexcentBlogSection = () => {
             <Image
               width={368}
               height={286}
-              src={blogImage2.src}
+              src="/blog_image_2.png"
               alt="Blog Image"
               className="w-full h-auto z-0"
             />
@@ -417,7 +411,7 @@ const NexcentBlogSection = () => {
             <Image
               width={368}
               height={286}
-              src={blogImage3.src}
+              src="/blog_image_3.png"
               alt="Blog Image"
               className="w-full h-auto z-0"
             />

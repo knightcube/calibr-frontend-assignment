@@ -1,6 +1,6 @@
 import React from "react";
 import BrandedButton from "./BrandedButton";
-import bannerIllustration from "../assets/banner_illustration.png";
+// import bannerIllustration from "/banner_illustration.png";
 import Image from "next/image";
 
 const BannerSlider: React.FC = () => {
@@ -17,7 +17,7 @@ const BannerSlider: React.FC = () => {
           <BrandedButton title="Register" />
         </div>
       </div>
-      <Image width={391} height={407} src={bannerIllustration.src} alt="" />
+      <Image width={391} height={407} src="/banner_illustration.png" alt="" />
     </div>
   );
 };
